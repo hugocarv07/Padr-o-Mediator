@@ -4,10 +4,6 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-/**
- * ConcreteMediator: é o único que conhece todos os colegas e decide quem
- * recebe cada evento. Os colegas só conhecem o Mediador.
- */
 public class CentralHospitalar implements Mediador {
 
     private Medico medico;
